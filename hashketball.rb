@@ -94,7 +94,7 @@ def player_stats(player_name)
       end
     end
   end
-  if player_hash = true
+  if player_hash
       player_hash.delete(:player_name)
       return player_hash
   end
